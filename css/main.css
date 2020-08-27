@@ -550,4 +550,8 @@ footer {
 	.contact-text2 {
 		width: 100%;
 	}
+	.advantages-card__image {
+		width: 6em;
+    height: 6em;
+	}
 }
