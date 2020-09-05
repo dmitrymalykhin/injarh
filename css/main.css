@@ -109,7 +109,7 @@ button {
 	padding: 10px 0;
 }
 .logo img {
-	height: 60px;
+	height: 80px;
 	object-fit: scale-down;
 }
 .bottom-header {
@@ -431,8 +431,44 @@ footer {
 	color: #e4e4e4;
 	cursor: pointer;
 }
+.contact-rect-title span {
+	border-bottom: 1px #fff solid;
+}
 .mailLink {
 	color: blue;
+}
+.small-link {
+	color: #000;
+	display: inline-block;
+	margin-bottom: 15px;
+	font-size: 14px;
+	width: 100%;
+}
+.big-link {
+	color: #000;
+	display: inline-block;
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-weight: 100;
+	width: 100%;
+	font-family: 'Qanelas-Bold';
+}
+.small-link span {
+	border-bottom: 1px solid #000;
+}
+.big-link span {
+	border-bottom: 1px solid #000;
+}
+.baz {
+	padding: 50px;
+	overflow-y: scroll;
+	height: 100%;
+}
+.baz .modal-content {
+	height: 100%;
+}
+.baz a:hover span{
+	border-bottom:1px solid #e4e4e4;
 }
 @media screen and (max-width: 1599px){
 	.icon {
@@ -552,6 +588,6 @@ footer {
 	}
 	.advantages-card__image {
 		width: 6em;
-    height: 6em;
+		height: 6em;
 	}
 }
